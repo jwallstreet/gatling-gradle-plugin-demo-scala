@@ -17,3 +17,10 @@ gatling {
 repositories {
   mavenCentral()
 }
+
+dependencies {
+  // ... other dependencies ...
+  gatling 'io.circe:circe-core_2.13:0.14.5'
+  gatling 'io.circe:circe-generic_2.13:0.14.5'
+  gatling 'io.circe:circe-parser_2.13:0.14.5'
+}
